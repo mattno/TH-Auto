@@ -18,7 +18,7 @@ The following settings are supported:
 To use your own settings, create a Windows shortcut with your values as arguments. Ordered as above. So the
 default values should be:
 
-`TS.exe 900 75 100 100 100 100 100`
+`TH-Auto.exe 900 75 100 100 100 100 100`
 
 ## Tested with
 
@@ -32,3 +32,8 @@ default values should be:
 
 For more wheels, please provide feedback with the name of the wheel, as seen, from the Game Controller panel (Win+R joy.cpl),
 and also the name of of the window after opening the Thrustmaster control panel.
+
+## Build
+
+Download AutoIt and compile/run yourself.
+
