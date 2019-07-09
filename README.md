@@ -27,8 +27,8 @@ default values should be:
 * **Thrustmaster package:** 1.TTRS.2019
 * **Wheel/rims**:
   * TS-PC
-  * TS-PC Racer
-  * Ferrari F1 Wheel Advanced TS-PC Racer
+    * TS-PC Racer
+    * Ferrari F1 Wheel Advanced TS-PC Racer
 
 For more wheels, please provide feedback with the name of the wheel, as seen, from the Game Controller panel (Win+R joy.cpl),
 and also the name of of the window after opening the Thrustmaster control panel.
