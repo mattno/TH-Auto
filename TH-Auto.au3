@@ -8,10 +8,10 @@
 #pragma compile(Icon, TS.ico)
 #pragma compile(ProductName, TS Automate)
 #pragma compile(OriginalFilename, TS-Auto.exe)
-#pragma compile(FileDescription, Automates settings for Thrustmaster wheels.)
+#pragma compile(FileDescription, Automates the settings for Thrustmaster wheels.)
 #pragma compile(ProductVersion, 0.0.1)
 #pragma compile(FileVersion, 0.0.1, 0.0.1.1)
-#pragma compile(CompanyName, 'zaphman')
+#pragma compile(CompanyName, 'mattno')
 #pragma compile(UPX, true)
 #pragma compile(Compression, 9)
 
@@ -50,8 +50,6 @@ If $CmdLine[0] > 5 Then
    $gainDamper = $CmdLine[6]
 EndIf
 
-
-
 Local $hThCpl = GetThCpl()
 If "" = $hThCpl Then
    Exit
@@ -70,8 +68,6 @@ EndIf
 
 Exit
 
-
-
 Func GetJoyCpl()
    Local $hJoyCpl = WinGetHandle ($sJoyCplTitle)
    If @error Then
@@ -84,7 +80,6 @@ Func GetJoyCpl()
    WinActivate ( $hJoyCpl )
    return $hJoyCpl
 EndFunc
-
 
 Func GetThCpl()
    Local $hThCpl = WinGetHandle ($sThCplTitle)
@@ -150,7 +145,6 @@ Func GetThCpl()
 
    Return $hThCpl
  EndFunc
-
 
 Func SetRotation($hThCpl)
 
@@ -221,8 +215,6 @@ Func SetGains($hThCpl)
 
 EndFunc
 
-
-
 Func SetTab($hThCpl, $tab)
    Local $resetTab = -1
    Do
@@ -243,6 +235,3 @@ Func SetTab($hThCpl, $tab)
    Until  (False)
    Return $resetTab
 EndFunc
-
-
-
