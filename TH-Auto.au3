@@ -5,10 +5,10 @@
 
 ; Allows automation of settings for Thrustmaster wheels/rims.
 
-#pragma compile(Icon, TS.ico)
-#pragma compile(ProductName, TS Automate)
-#pragma compile(OriginalFilename, TS-Auto.exe)
-#pragma compile(FileDescription, Automates the settings for Thrustmaster wheels.)
+#pragma compile(Icon, wheel.ico)
+#pragma compile(ProductName, TH Automate)
+#pragma compile(OriginalFilename, TH-Auto.exe)
+#pragma compile(FileDescription, Automates setting settings for Thrustmaster wheels/rims.)
 #pragma compile(ProductVersion, 0.0.1)
 #pragma compile(FileVersion, 0.0.1, 0.0.1.1)
 #pragma compile(CompanyName, 'mattno')
