@@ -22,7 +22,7 @@ default values should be:
 
 ## Tested with
 
-* **Operating System:** Windows 10 X64
+* **Operating System:** Windows 10 X64 Version 1809
 * **Language:** English
 * **Thrustmaster package:** 1.TTRS.2019
 * **Wheel/rims**:
