@@ -24,7 +24,7 @@ default values should be:
 
 * **Operating System:** Windows 10 X64 Version 1809
 * **Language:** English
-* **Thrustmaster package:** 1.TTRS.2019
+* **Thrustmaster package:** 1.TTRS.2019, 2.TTRS.2020
 * **Wheel/rims**:
   * TS-PC
     * TS-PC Racer
