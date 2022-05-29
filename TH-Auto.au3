@@ -89,11 +89,12 @@ Func GetThCpl()
 	  Local $hJoyCpl = GetJoyCpl()
 
 	  ; Names as they appear in Game Controller applet
-	  Local $tsNames[4]
+	  Local $tsNames[5]
 	  $tsNames[0] = "Thrustmaster TX Racing Wheel"
 	  $tsNames[1] = "Ferrari F1 Wheel Advanced TX"
 	  $tsNames[2] = "TS-PC Racer"
 	  $tsNames[3] = "Ferrari F1 Wheel Advanced TS-PC Racer"
+	  $tsNames[4] = "Thrustmaster T300RS Racing Wheel"
 	  Local $idx = -1
 	  Local $err = False
 
